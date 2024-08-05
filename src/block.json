@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/cafe-restaurant-menu-block",
+	"version": "0.1.0",
+	"title": "Cafe Restaurant Menu Block",
+	"category": "widgets",
+	"attributes": {
+		"menuHeadline": {
+			"type": "string",
+			"source": "html",
+			"selector": "h3"
+		},
+		"menuItemTitle": {
+			"type": "string"
+		},
+		"menuItemPrice": {
+			"type": "string"
+		}
+	},
+	"example": {
+		"attributes": {
+			"menuHeadline": "Koffie & Thee",
+			"menuItemTitle": "Diverse Nespresso koffie vanaf",
+			"menuItemPrice": "2.5"
+		}
+	},
+	"icon": "column",
+	"description": "Menu Columns",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "cafe-restaurant-menu-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
