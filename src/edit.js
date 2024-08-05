@@ -6,6 +6,12 @@
 import { __ } from '@wordpress/i18n';
 
 /**
+ * Import files for loading meta data and for importing block template data
+ */
+import {registerBlockType} from '@wordpress/blocks';
+import {MY_TEMPLATE} from './template';
+
+/**
  * React hook that is used to mark the block wrapper element.
  * It provides all the necessary props like the class name.
  *

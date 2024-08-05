@@ -140,5 +140,3 @@ export const MY_TEMPLATE = [
         ]
     ]
 ];
-
-All `core/paragraph` and `core/button` blocks have been removed as requested.
