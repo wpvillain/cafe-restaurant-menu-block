@@ -102,7 +102,7 @@ export const MY_TEMPLATE = [
                     ["core/heading",
                         {
                             "level": 3,
-                            "content": "enterprise",
+                            "content": "Wijnen",
                             "className": "third-block-header"
                         }
                     ],

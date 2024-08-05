@@ -5,9 +5,28 @@
   "version": "0.1.0",
   "title": "Cafe Restaurant Menu Block",
   "category": "widgets",
-  "icon": "smiley",
-  "description": "Example block scaffolded with Create Block tool.",
-  "example": {},
+  "attributes": {
+    "menuHeadline": {
+      "type": "string",
+      "source": "html",
+      "selector": "h3"
+    },
+    "menuItemTitle": {
+      "type": "string"
+    },
+    "menuItemPrice": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "attributes": {
+      "menuHeadline": "Koffie & Thee",
+      "menuItemTitle": "Diverse Nespresso koffie vanaf",
+      "menuItemPrice": "2.5"
+    }
+  },
+  "icon": "column",
+  "description": "Menu Columns",
   "supports": {
     "html": false
   },
