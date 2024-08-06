@@ -7,3 +7,18 @@
 .wp-block-create-block-cafe-restaurant-menu-block {
 	border: 1px dotted #f00;
 }
+
+.wpv-cover-image-block {
+    position: relative;
+    width: 100%;
+}
+
+.wpv-group-block {
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .wpv-group-block {
+        justify-content: flex-start;
+    }
+}

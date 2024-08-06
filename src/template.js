@@ -1,138 +1,103 @@
 export const MY_TEMPLATE = [
-    ["core/columns",
+    ["core/cover",
         {
-            "spacing": {
-                "blockGap": "0px"
-            },
-            "blockGap": "0px",
-            "className": "wpv-menu-columns-block"
+            "url": "https://cafejpcoen.test/wp-content/plugins/woocommerce/assets/images/pattern-placeholders/table-wood-house-chair-floor-window.jpg",
+            "overlayColor": "black",
+            "overlayOpacity": 0.5,
+            "align": "full",
+            "className": "wpv-cover-image-block"
         },
         [
-            ["core/column",
+            ["core/group",
                 {
-                    "className": "first-column"
+                    "align": "full",
+                    "className": "wpv-group-block",
+                    "layout": {
+                        "type": "flex",
+                        "orientation": "horizontal"
+                    }
                 },
                 [
-                    ["core/heading",
+                    ["core/group",
                         {
-                            "level": 3,
-                            "content": "",
-                            "className": "first-block-header"
-                        }
-                    ],
-                    ["core/columns",
-                        {
-                            "spacing": {
-                                "blockGap": "0px"
-                            },
-                            "blockGap": "0px",
-                            "className": "sub-header-priceline-columns"
+                            "className": "wpv-vertical-group-block",
+                            "layout": {
+                                "type": "flex",
+                                "orientation": "vertical"
+                            }
                         },
                         [
-                            ["core/column", {}, [
-                                ["core/heading",
-                                    {
-                                        "level": 3,
-                                        "content": "",
-                                        "className": "first-block-sub-header"
+                            ["core/heading",
+                                {
+                                    "level": 3,
+                                    "content": "Koffie & Thee",
+                                    "className": "first-block-header"
+                                }
+                            ],
+                            ["core/group",
+                                {
+                                    "className": "wpv-row-group-block",
+                                    "layout": {
+                                        "type": "flex",
+                                        "orientation": "horizontal"
                                     }
+                                },
+                                [
+                                    ["core/paragraph",
+                                        {
+                                            "content": "Diverse Nespresso koffie vanaf",
+                                            "className": "first-group-paragraph"
+                                        }
+                                    ],
+                                    ["core/paragraph",
+                                        {
+                                            "content": "2.5.",
+                                            "className": "first-group-paragraph"
+                                        }
+                                    ]
                                 ]
-                            ]],
-                            ["core/column", {}, [
-                                ["core/heading",
-                                    {
-                                        "level": 4,
-                                        "content": "",
-                                        "className": "first-block-priceline"
-                                    }
-                                ]
-                            ]]
+                            ]
                         ]
-                    ]
-                ]
-            ],
-            ["core/column",
-                {
-                    "className": "second-column"
-                },
-                [
-                    ["core/heading",
-                        {
-                            "level": 3,
-                            "content": "annual",
-                            "className": "second-block-header"
-                        }
                     ],
-                    ["core/columns",
+                    ["core/group",
                         {
-                            "spacing": {
-                                "blockGap": "0px"
-                            },
-                            "blockGap": "0px",
-                            "className": "sub-header-priceline-columns"
+                            "className": "wpv-vertical-group-block",
+                            "layout": {
+                                "type": "flex",
+                                "orientation": "vertical"
+                            }
                         },
                         [
-                            ["core/column", {}, [
-                                ["core/heading",
-                                    {
-                                        "level": 3,
-                                        "content": "direct access",
-                                        "className": "second-block-sub-header"
+                            ["core/heading",
+                                {
+                                    "level": 3,
+                                    "content": "Wijnen",
+                                    "className": "second-block-header"
+                                }
+                            ],
+                            ["core/group",
+                                {
+                                    "className": "wpv-row-group-block",
+                                    "layout": {
+                                        "type": "flex",
+                                        "orientation": "horizontal"
                                     }
+                                },
+                                [
+                                    ["core/paragraph",
+                                        {
+                                            "content": "Chordonnay Portugal",
+                                            "className": "second-group-paragraph"
+                                        }
+                                    ],
+                                    ["core/paragraph",
+                                        {
+                                            "content": "4.5",
+                                            "className": "second-group-paragraph"
+                                        }
+                                    ]
                                 ]
-                            ]],
-                            ["core/column", {}, [
-                                ["core/heading",
-                                    {
-                                        "level": 4,
-                                        "content": "$99",
-                                        "className": "second-block-priceline"
-                                    }
-                                ]
-                            ]]
-                        ]
-                    ]
-                ]
-            ],
-            ["core/column",
-                {
-                    "className": "third-column"
-                },
-                [
-                    ["core/heading",
-                        {
-                            "level": 3,
-                            "content": "Wijnen",
-                            "className": "third-block-header"
-                        }
-                    ],
-                    ["core/columns",
-                        {
-                            "spacing": {
-                                "blockGap": "0px"
-                            },
-                            "blockGap": "0px",
-                            "className": "sub-header-priceline-columns"
-                        },
-                        [
-                            ["core/column", {}, [
-                                ["core/heading",
-                                    {
-                                        "level": 3,
-                                        "content": "team plan",
-                                        "className": "third-block-sub-header"
-                                    }
-                                ]
-                            ]],
-                            ["core/column", {}, [
-                                ["core/heading",
-                                    {
-                                        "level": 4,
-                                        "content": "custom",
-                                        "className": "third-block-priceline"
-                                    }
-                                ]
-                            ]]
+                            ]
                         ]
                     ]
                 ]

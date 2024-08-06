@@ -8,7 +8,7 @@ import { __ } from '@wordpress/i18n';
 /**
  * Import files for loading meta data and for importing block template data
  */
-import {registerBlockType} from '@wordpress/blocks';
+// import {registerBlockType} from '@wordpress/blocks';
 import {MY_TEMPLATE} from './template';
 
 /**
@@ -42,6 +42,12 @@ export default function Edit( {attributes, setAttributes} ) {
 		'core/columns',
 		'core/heading'
 	];
+	
+	/**
+	 * The useBlockProps hook provides properties that are necessary for the block's
+	 *  wrapper element, such as class names and other editor-specific attributes.
+	 * @llink https://developer.wordpress.org/block-editor/getting-started/fundamentals/block-wrapper/
+	 */ 
 	const blockProps = useBlockProps();
 	const {menuHeadline, menuItemTitle, menuItemPrice} = attributes;
 

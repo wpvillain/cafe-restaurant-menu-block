@@ -10,3 +10,18 @@
 	color: #fff;
 	padding: 2px;
 }
+
+.wpv-cover-image-block {
+    position: relative;
+    width: 100%;
+}
+
+.wpv-group-block {
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .wpv-group-block {
+        justify-content: flex-start;
+    }
+}
