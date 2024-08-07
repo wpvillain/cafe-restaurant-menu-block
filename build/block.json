@@ -26,7 +26,7 @@
     }
   },
   "icon": "column",
-  "description": "Menu Columns",
+  "description": "Block that display drinks, snacks and other food items. Display is in two columns by default",
   "supports": {
     "html": false
   },
