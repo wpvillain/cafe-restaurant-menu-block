@@ -29,6 +29,11 @@ export const MY_TEMPLATE = [
                             "layout": {
                                 "type": "flex",
                                 "orientation": "vertical"
+                            },
+                            "style": {
+                                "color": {
+                                    "background": "#abd8bf"
+                                }
                             }
                         },
                         [
@@ -36,7 +41,17 @@ export const MY_TEMPLATE = [
                                 {
                                     "level": 3,
                                     "content": "Koffie & Thee",
-                                    "className": "first-block-header"
+                                    "className": "first-block-header",
+                                    "style": {
+                                        "typography": {
+                                            "fontFamily": "'Orbitron', sans-serif",
+                                            "fontWeight": "500",
+                                            "fontSize": "28px"
+                                        },
+                                        "color": {
+                                            "text": "#014521"
+                                        }
+                                    }
                                 }
                             ],
                             ["core/group",
@@ -307,6 +322,11 @@ export const MY_TEMPLATE = [
                             "layout": {
                                 "type": "flex",
                                 "orientation": "vertical"
+                            },
+                            "style": {
+                                "color": {
+                                    "background": "#70ab8b"
+                                }
                             }
                         },
                         [
@@ -314,7 +334,17 @@ export const MY_TEMPLATE = [
                                 {
                                     "level": 3,
                                     "content": "Wijnen",
-                                    "className": "second-block-header"
+                                    "className": "second-block-header",
+                                    "style": {
+                                        "typography": {
+                                            "fontFamily": "'Orbitron', sans-serif",
+                                            "fontWeight": "500",
+                                            "fontSize": "28px"
+                                        },
+                                        "color": {
+                                            "text": "#ffffff"
+                                        }
+                                    }
                                 }
                             ],
                             ["core/group",
@@ -328,7 +358,7 @@ export const MY_TEMPLATE = [
                                 [
                                     ["core/paragraph",
                                         {
-                                            "content": "Chordonnay Portugal",
+                                            "content": "Chordonnay",
                                             "className": "second-group-paragraph",
                                             "style": {
                                                 "typography": {
@@ -338,6 +368,22 @@ export const MY_TEMPLATE = [
                                                 },
                                                 "color": {
                                                     "text": "#014521"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    ["core/paragraph",
+                                        {
+                                            "content": "Portugal",
+                                            "className": "second-group-paragraph",
+                                            "style": {
+                                                "typography": {
+                                                    "fontFamily": "'Asap Condensed', sans-serif",
+                                                    "fontWeight": "500",
+                                                    "fontSize": "15px"
+                                                },
+                                                "color": {
+                                                    "text": "#ffffff"
                                                 }
                                             }
                                         }
@@ -371,7 +417,7 @@ export const MY_TEMPLATE = [
                                 [
                                     ["core/paragraph",
                                         {
-                                            "content": " Verdego Spanje",
+                                            "content": " Verdego",
                                             "className": "second-group-paragraph",
                                            "style": {
                                                 "typography": {
@@ -387,6 +433,23 @@ export const MY_TEMPLATE = [
                                     ],
                                     ["core/paragraph",
                                         {
+                                            "content": "Spanje",
+                                            "className": "second-group-paragraph",
+                                            "style": {
+                                                "typography": {
+                                                    "fontFamily": "'Asap Condensed', sans-serif",
+                                                    "fontWeight": "500",
+                                                    "fontSize": "15px"
+                                                },
+                                                "color": {
+                                                    "text": "#ffffff"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    
+                                    ["core/paragraph",
+                                        {
                                             "content": "4.5",
                                             "className": "second-group-paragraph",
                                             "style": {
@@ -414,7 +477,7 @@ export const MY_TEMPLATE = [
                                 [
                                     ["core/paragraph",
                                         {
-                                            "content": "Pinot Grigio Italië",
+                                            "content": "Pinot Grigio",
                                             "className": "second-group-paragraph",
                                             "style": {
                                                 "typography": {
@@ -424,6 +487,22 @@ export const MY_TEMPLATE = [
                                                 },
                                                 "color": {
                                                     "text": "#014521"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    ["core/paragraph",
+                                        {
+                                            "content": "Italië",
+                                            "className": "second-group-paragraph",
+                                            "style": {
+                                                "typography": {
+                                                    "fontFamily": "'Asap Condensed', sans-serif",
+                                                    "fontWeight": "500",
+                                                    "fontSize": "15px"
+                                                },
+                                                "color": {
+                                                    "text": "#ffffff"
                                                 }
                                             }
                                         }
@@ -457,7 +536,7 @@ export const MY_TEMPLATE = [
                                 [
                                     ["core/paragraph",
                                         {
-                                            "content": "Cava Spanje",
+                                            "content": "Cava",
                                             "className": "second-group-paragraph",
                                             "style": {
                                                 "typography": {
@@ -467,6 +546,22 @@ export const MY_TEMPLATE = [
                                                 },
                                                 "color": {
                                                     "text": "#014521"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    ["core/paragraph",
+                                        {
+                                            "content": "Spanje",
+                                            "className": "second-group-paragraph",
+                                            "style": {
+                                                "typography": {
+                                                    "fontFamily": "'Asap Condensed', sans-serif",
+                                                    "fontWeight": "500",
+                                                    "fontSize": "15px"
+                                                },
+                                                "color": {
+                                                    "text": "#ffffff"
                                                 }
                                             }
                                         }
