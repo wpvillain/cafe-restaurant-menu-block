@@ -33,6 +33,14 @@ export const MY_TEMPLATE = [
                             "style": {
                                 "color": {
                                     "background": "#abd8bf"
+                                },
+                                "spacing": {
+                                    "padding": {
+                                    "top": "0.5rem",
+                                    "right": "0.5rem",
+                                    "bottom": "0.5rem",
+                                    "left": "0.5rem"
+                                    }
                                 }
                             }
                         },
@@ -75,6 +83,22 @@ export const MY_TEMPLATE = [
                                                 },
                                                 "color": {
                                                     "text": "#014521"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    ["core/paragraph",
+                                        {
+                                            "content": "|",
+                                            "className": "first-group-paragraph",
+                                            "style": {
+                                                "typography": {
+                                                    "fontFamily": "'Asap Condensed', sans-serif",
+                                                    "fontWeight": "500",
+                                                    "fontSize": "15px"
+                                                },
+                                                "color": {
+                                                    "text": "#c39e64"
                                                 }
                                             }
                                         }
@@ -326,6 +350,14 @@ export const MY_TEMPLATE = [
                             "style": {
                                 "color": {
                                     "background": "#70ab8b"
+                                },
+                                "spacing": {
+                                    "padding": {
+                                    "top": "0.5rem",
+                                    "right": "0.5rem",
+                                    "bottom": "0.5rem",
+                                    "left": "0.5rem"
+                                    }
                                 }
                             }
                         },
