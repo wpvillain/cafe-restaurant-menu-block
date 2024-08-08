@@ -9,7 +9,7 @@ import { __ } from '@wordpress/i18n';
  * Import files for loading meta data and for importing block template data
  */
 // import {registerBlockType} from '@wordpress/blocks';
-import {MY_TEMPLATE} from './template';
+import { MY_TEMPLATE } from './template';
 
 /**
  * React hook that is used to mark the block wrapper element.
@@ -35,30 +35,29 @@ import './editor.scss';
  *
  * @return {Element} Element to render.
  */
-export default function Edit( {attributes, setAttributes} ) {
+export default function Edit( { attributes, setAttributes } ) {
 	const ALLOWED_BLOCKS = [
 		'core/image',
 		'core/paragraph',
 		'core/columns',
-		'core/heading'
+		'core/heading',
 	];
-	
+
 	/**
 	 * The useBlockProps hook provides properties that are necessary for the block's
 	 *  wrapper element, such as class names and other editor-specific attributes.
 	 * @llink https://developer.wordpress.org/block-editor/getting-started/fundamentals/block-wrapper/
-	 */ 
+	 */
 	const blockProps = useBlockProps();
-	const {menuHeadline, menuItemTitle, menuItemPrice} = attributes;
+	const { menuHeadline, menuItemTitle, menuItemPrice } = attributes;
 
-
-		return (
-			<div { ...blockProps }>
-				<InnerBlocks
-					template={ MY_TEMPLATE }
-					allowedBlocks={ ALLOWED_BLOCKS }
-					templateLock={false}
-				/>
-			</div>
+	return (
+		<div { ...blockProps }>
+			<InnerBlocks
+				template={ MY_TEMPLATE }
+				allowedBlocks={ ALLOWED_BLOCKS }
+				templateLock={ false }
+			/>
+		</div>
 	);
 }
