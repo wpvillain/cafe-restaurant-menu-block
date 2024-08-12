@@ -40,6 +40,8 @@ export default function Edit( { attributes, setAttributes } ) {
 		'core/image',
 		'core/paragraph',
 		'core/columns',
+		'core/cover',
+		'core/group',
 		'core/heading',
 	];
 

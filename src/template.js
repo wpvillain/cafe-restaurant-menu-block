@@ -1079,7 +1079,7 @@ export const MY_TEMPLATE = [
 										'core/paragraph',
 										{
 											content:
-												'Diverse Nespresso koffie vanaf',
+												'Affligem  Wit',
 											className: 'first-group-paragraph',
 											style: {
 												typography: {
